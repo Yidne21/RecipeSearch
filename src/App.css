@@ -1,24 +1,16 @@
-.h1, h4{
+h1, h3{
   justify-content: center;
   text-align: center;
 }
 .drop__down{
-  width: 200px;
+  width: 150px;
 }
 
 .recipe__input{
-  width: 70%;
+  width: 80%;
   height: 70px;
 }
 
-.searchBykey__word{
-margin-left: 0%;
-max-width: 20%;
-margin-right: auto;
-
-}
-
-.search__container{
-  margin-left: 0%;
-  max-width: 60%;
+.calories{
+  width: 30%;
 }

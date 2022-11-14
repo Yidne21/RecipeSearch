@@ -5,17 +5,17 @@ import {
   MDBDropdownMenu,
   MDBDropdownToggle,
   MDBCheckbox,
+  MDBBtn,
+  MDBInputGroup
 } from "mdb-react-ui-kit";
 
 export default function SearchBykeyword() {
   return (
-    <MDBCol className="searchBykey__word">
-      <h3>Search By keyword</h3>
+    <MDBCol size="3">
+      <h4>Search By keyword</h4>
       <br />
       <MDBDropdown>
-        <MDBDropdownToggle className="drop__down">
-          Allergies
-        </MDBDropdownToggle>
+        <MDBDropdownToggle className="drop__down">Allergies</MDBDropdownToggle>
         <MDBDropdownMenu>
           <MDBCheckbox
             name="flexCheck"
@@ -105,6 +105,7 @@ export default function SearchBykeyword() {
             name="flexCheck"
             value=""
             id="flexCheckChecked"
+            checkbox
             label="Pork-free"
           />
           <MDBCheckbox
@@ -121,12 +122,7 @@ export default function SearchBykeyword() {
           />
         </MDBDropdownMenu>
       </MDBDropdown>
-      <br />
-      <MDBDropdown>
-        <MDBDropdownToggle className="drop__down">Calories</MDBDropdownToggle>
-        <MDBDropdownMenu></MDBDropdownMenu>
-      </MDBDropdown>
-      <br />
+      <br />   
       <MDBDropdown>
         <MDBDropdownToggle className="drop__down">Nutrients</MDBDropdownToggle>
         <MDBDropdownMenu>
@@ -134,40 +130,37 @@ export default function SearchBykeyword() {
             name="flexCheck"
             value=""
             id="flexCheckDefault"
-            label="Default checkbox"
+            label="Fat"
           />
           <MDBCheckbox
             name="flexCheck"
             value=""
             id="flexCheckChecked"
-            label="Checked checkbox"
-            defaultChecked
+            label="Fiber"
           />
           <MDBCheckbox
             name="flexCheck"
             value=""
             id="flexCheckDefault"
-            label="Default checkbox"
+            label="Saturated"
           />
           <MDBCheckbox
             name="flexCheck"
             value=""
             id="flexCheckChecked"
-            label="Checked checkbox"
-            defaultChecked
+            label="Sugars"
           />
           <MDBCheckbox
             name="flexCheck"
             value=""
             id="flexCheckDefault"
-            label="Default checkbox"
+            label="Trans"
           />
           <MDBCheckbox
             name="flexCheck"
             value=""
             id="flexCheckChecked"
-            label="Checked checkbox"
-            defaultChecked
+            label="Carbs"
           />
         </MDBDropdownMenu>
       </MDBDropdown>

@@ -17,7 +17,6 @@ export default function RecipeSearchBar() {
           />
           <MDBBtn>Search</MDBBtn>
         </MDBInputGroup>
-        <MDBRow></MDBRow>
       </div>
     );
 }
