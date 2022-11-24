@@ -7,17 +7,18 @@ const intialState = {
 };
 
 const recipeReducer = (state = intialState, action) => {
-    switch (action.types) {
+    switch (action.type) {
         case types.LOAD_RECIPE_START:
             return {
                 ...state,
                 loading: true,
             };
         case types.LOAD_RECIPE_SUCESS:
+            console.log(state.recipe)
             return {
                 ...state,
                 loading: false,
-                recips: action.payload,
+                recipe: action.payload,
             };
         case types.LOAD_RECIPE_ERROR:
             return {

@@ -5,8 +5,6 @@ import {
   MDBDropdownMenu,
   MDBDropdownToggle,
   MDBCheckbox,
-  MDBBtn,
-  MDBInputGroup
 } from "mdb-react-ui-kit";
 
 export default function SearchBykeyword() {

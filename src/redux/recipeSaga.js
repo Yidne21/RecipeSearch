@@ -1,9 +1,9 @@
 import {
     all,
     call,
-    delay,
     put,
     takeEvery,
+    fork
 } from 'redux-saga/effects'
 
 import * as types from "./actionTypes"
@@ -15,9 +15,9 @@ function* onloadRecipeStartAsync() {
     try {
         const response = yield call(Api.loadRecipeApi);
         if (response.status === 200){
-            yield delay(500);
-            yield put(action.loadRecipeSucces(response.data));
-        }
+            const { hits:[...recipes] } = response.data;
+            console.log(recipes)
+            yield put(action.loadRecipeSucces(recipes));        }
     }catch (error){
         yield put(action.loadRecipeError(error.response.data));
     }

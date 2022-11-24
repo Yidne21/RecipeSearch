@@ -6,14 +6,17 @@ export const loadRecipeStart = () => {
     }
 }
 
-export const loadRecipeSucces = () => {
+export const loadRecipeSucces = (recipes) => {
+  //console.log("loadRecipeSucces Called", recipes)
   return {
     type: types.LOAD_RECIPE_SUCESS,
+    payload: recipes
   };
 };
 
-export const loadRecipeError = () => {
+export const loadRecipeError = (error) => {
   return {
     type: types.LOAD_RECIPE_ERROR,
+    payload: error
   };
 };

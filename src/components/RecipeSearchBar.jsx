@@ -1,7 +1,5 @@
 import React from "react";
 import {
-  MDBRow,
-  MDBCol,
   MDBBtn,
   MDBInputGroup,
 } from "mdb-react-ui-kit";
