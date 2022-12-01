@@ -11,9 +11,9 @@ import * as action from "./action"
 import * as Api from "./api"
 
 
-function* onloadRecipeStartAsync() {
+function* onloadRecipeStartAsync({payload}) {
     try {
-        const response = yield call(Api.loadRecipeApi);
+        const response = yield call(Api.loadRecipeApi, payload);
         if (response.status === 200){
             const { hits:[...recipes] } = response.data;
             console.log(recipes)

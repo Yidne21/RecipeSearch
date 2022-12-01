@@ -1,8 +1,10 @@
 import * as types from "./actionTypes";
 
-export const loadRecipeStart = () => {
+export const loadRecipeStart = (query) => {
+  console.log(query)
     return {
         type: types.LOAD_RECIPE_START,
+        payload: query
     }
 }
 

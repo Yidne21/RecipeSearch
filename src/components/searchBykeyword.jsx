@@ -9,7 +9,7 @@ import {
 
 export default function SearchBykeyword() {
   return (
-    <MDBCol size="3">
+    <MDBCol md="3" className="search_by__keyword">
       <h4>Search By keyword</h4>
       <br />
       <MDBDropdown>

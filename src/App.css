@@ -2,6 +2,8 @@ h1, h3{
   justify-content: center;
   text-align: center;
 }
+
+
 .drop__down{
   width: 150px;
 }
@@ -13,4 +15,49 @@ h1, h3{
 
 .calories{
   width: 30%;
+}
+
+.card__nutrient{
+  margin-left: 10%;
+  justify-content: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  display: flexbox;
+  margin-block-end: auto;
+}
+
+.nutrient__span__pro{
+  margin-left: 10%;
+}
+.nutrient__span__carb {
+  margin-left: 18%;
+}
+
+.nutrient__span__fat {
+  margin-left: 24%;
+}
+
+.img__serving{
+  padding-left: 15px;
+  padding-top: 35px;
+}
+
+.card__serving{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.search_by__keyword{
+  margin-right: 0%;
+  margin-left: 0%;
+  margin-bottom: 570%;
+}
+
+.SearchandCard__container{
+  margin-left: 0%;
+  margin-right: auto;
+}
+
+.card__container{
+  display: inline-flexbox;
 }

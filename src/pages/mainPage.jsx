@@ -16,17 +16,12 @@ export default function MainPage() {
       </MDBRow>
       <MDBRow>
         <SearchBykeyword />
-        <MDBCol>
-          <RecipeSearchBar/>
-          <MDBRow>
-            <MDBCol>
-              <div className="d-flex flex-wrap">
-                <div className="p-2 ">
-                  <Card />
-                </div>
-                <br/>
-              </div>
-            </MDBCol>
+        <MDBCol className="SearchandCard__container" md="8">
+          <RecipeSearchBar />
+          <MDBRow className="card__container">
+            <div className="d-flex align-content-between flex-md-row flex-wrap">
+              <Card />
+            </div>
           </MDBRow>
         </MDBCol>
       </MDBRow>
