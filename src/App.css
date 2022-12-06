@@ -63,6 +63,11 @@ h3 {
   padding-left: 15px;
   border: 1px solid blue;
 }
+
+.Search__button{
+  font-size: 16pt;
+  border-radius: 15px;
+}
 /*Searchbar style end */
 
 
@@ -79,6 +84,7 @@ h3 {
   font-weight: bold;
   display: flexbox;
   margin-block-end: auto;
+  font-size: 14pt;
 }
 
 .nutrient__span__pro{
@@ -95,6 +101,7 @@ h3 {
 .img__serving{
   padding-left: 15px;
   padding-top: 35px;
+  font-size: 20pt;
 }
 
 .card__serving{
@@ -106,6 +113,9 @@ h3 {
 .card__container{
   padding: 10px 15px 10px 10px;
   background-color: whitesmoke;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  border-style: outset hidden hidden outset;
 }
 
 .card{
@@ -113,6 +123,28 @@ h3 {
   padding: 10px 10px 10px 10px;
 }
 
+.see__more{
+  border: 1px solid;
+  padding: 15px 15px 5px 15px;
+  border-radius: 10px;
+}
+
+.see__more:hover{
+  transition: all 0.6s ease;
+  -webkit-transition: all 0.7s ease;
+  background-color: blue;
+  color: white;
+}
+
+.title{
+  font-size: 24pt;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.text{
+  font-size: 12pt;
+}
 /*recipeCard style End */
 
 body{

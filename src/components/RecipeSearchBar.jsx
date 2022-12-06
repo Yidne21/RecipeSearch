@@ -20,7 +20,6 @@ export default function RecipeSearchBar() {
   const handleSearch = (e) => {
     e.preventDefault();
     if (query) {
-      console.log(query);
       dispatch(loadRecipeStart(query));
     }
   };
@@ -42,7 +41,7 @@ export default function RecipeSearchBar() {
           value={query || ""}
           onChange={onInputChange}
         />
-        <MDBBtn onClick={handleSearch}>Search</MDBBtn>
+        <MDBBtn className="Search__button" onClick={handleSearch}>Search</MDBBtn>
       </MDBInputGroup>
     </div>
   );

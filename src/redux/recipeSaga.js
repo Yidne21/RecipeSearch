@@ -22,7 +22,6 @@ function* onloadRecipeStartAsync({payload}) {
         const response = yield call(Api.loadRecipeApi, payload);
         if (response.status === 200){
             const { hits:[...recipes] } = response.data;
-            console.log(recipes)
             yield put(action.loadRecipeSucces(recipes));        }
     }catch (error){
         yield put(action.loadRecipeError(error.response.data));

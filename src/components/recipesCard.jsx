@@ -83,8 +83,8 @@ export default function Card() {
 
                       <MDBCol md="8">
                         <MDBCardBody>
-                          <MDBCardTitle>{item.recipe.label}</MDBCardTitle>
-                          <MDBCardText>
+                          <MDBCardTitle className="title">{item.recipe.label}</MDBCardTitle>
+                          <MDBCardText className="text">
                             {item.recipe.healthLabels.map(
                               (label) => label + " "
                             )}
