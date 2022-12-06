@@ -1,17 +1,72 @@
-h1, h3{
+/* main page style start */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+#banner {
+  margin-top: 5px;
+  margin-bottom: 130px;
+  margin-left: 5px;
+  height: 100px;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+}
+
+.Searchbar_container{
+  justify-content: center;
+  margin-left: 240px;
+  padding: 20px 20px 20px 20px;
+}
+
+#nest {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.d-flex{
+ padding: auto;
+}
+/* main page style End */
+
+/*header style start */
+h1{
+  font-size: 60pt;
   justify-content: center;
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-
-.drop__down{
-  width: 150px;
+h3 {
+  font-size: 20pt;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
+/*header style end */
+
+/*Searchbar style start */
 .recipe__input{
-  width: 80%;
+  font-family: 'Times New Roman', Times, serif;
+  width: 60%;
   height: 70px;
+  margin-left: 50px;
+  border-radius: 10px;
+  font-size: 18pt;
+  padding-left: 15px;
+  border: 1px solid blue;
 }
+/*Searchbar style end */
+
+
+/*recipeCard style start */
 
 .calories{
   width: 30%;
@@ -47,17 +102,20 @@ h1, h3{
   padding-bottom: 20px;
 }
 
-.search_by__keyword{
-  margin-right: 0%;
-  margin-left: 0%;
-  margin-bottom: 570%;
-}
-
-.SearchandCard__container{
-  margin-left: 0%;
-  margin-right: auto;
-}
 
 .card__container{
-  display: inline-flexbox;
+  padding: 10px 15px 10px 10px;
+  background-color: whitesmoke;
+}
+
+.card{
+  background-color: whitesmoke;
+  padding: 10px 10px 10px 10px;
+}
+
+/*recipeCard style End */
+
+body{
+  background-color: whitesmoke;
+  
 }

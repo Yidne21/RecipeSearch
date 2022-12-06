@@ -6,6 +6,13 @@ const intialState = {
     error: null,
 };
 
+/**
+ * This function reduces the dispatched action accordint 
+ * the bussines logic and return its to the store
+ * @param {*} state 
+ * @param {*} action 
+ * @returns the updated data state to the store
+ */
 const recipeReducer = (state = intialState, action) => {
     switch (action.type) {
         case types.LOAD_RECIPE_START:
@@ -14,7 +21,6 @@ const recipeReducer = (state = intialState, action) => {
                 loading: true,
             };
         case types.LOAD_RECIPE_SUCESS:
-            console.log(state.recipe)
             return {
                 ...state,
                 loading: false,

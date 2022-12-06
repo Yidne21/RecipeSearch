@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Recipe Search App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+<p> This is My porifolio Project and The ALX final Project for the foundation Programm. it's act as A search engine for recipe searching. I implemented the project Using React, Redux, Redux-Saga, styled components and EDAMAM recipe Search api as backed-end. 
+</p>
 
-In the project directory, you can run:
+- **Access The project using this link** [Recipe Search App]()
 
-### `npm start`
+###  :pencil: **Author**
+- :man: Yidnekachew Bantrga
+- [Github](https://github.com/Yidne21)
+- [Linkedin](https://www.linkedin.com/in/yidnekachew-bantrga-801376234/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies
+- **React** to implement the UI components. 
+- **Redux** to manage react component states.
+- **Redux-Saga** to fetch Api.
+- **Styled-Component** to Style react UI components.
+- **EDAMAM REcipe Search Api** to get recipe data. 
+- Versions of those tools and other dependecy found on [Pacage.json file](https://github.com/Yidne21/AddisSoftwareTestProject/blob/master/package.json)
 
-### `npm test`
+##  Installation
+1. Clone This Repositary. 
+2. Change the directory in to the project directory.
+3. Open it on Terminal then type `npm install` and hit Enter.
+4. finaly type `npm start` then it will runs the app in the development mode. then Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screen Shots
+### Home page
+![Home Page](https://github.com/Yidne21/AddisSoftwareTestProject/blob/master/ScreenShot/Home.png)
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is applicable when we want to search recipe with detailed information for cooking or some other Reasons. It is very easy to use you just type the name of the recipe you want to search and hit the search button then it will filter out the recipe in micro-second on beautifule UI components in an organized way and it also provides link to another page which show how to cooke it.
