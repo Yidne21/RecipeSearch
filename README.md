@@ -2,7 +2,7 @@
 
 ## Introduction
 
-<p> The ALX final Project for the foundation Programm. it is web app which enables the user to search recipes by providing the recipe name and the will get how to cook the recipe, ingredients and some other info. the project is implemented Using React, Redux, Redux-Saga, Bootstrap 5 & React 18 and EDAMAM recipe Search api as backed-end. 
+<p> The ALX final Project for the foundation Programme. it is web app which enables the user to search recipes by providing the recipe name and they will get information about how to cook the recipe, ingredients and some other information. the project is implemented Using React, Redux, Redux-Saga, Bootstrap 5 & React 18 and EDAMAM recipe Search api as backed-end. 
 </p>
 
 <img src="https://github.com/Yidne21/RecipeSearch/blob/master/screenShot/RecipeSearch.png" width="100%" height="400px"/>
