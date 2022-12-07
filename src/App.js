@@ -1,5 +1,6 @@
 import "./App.css";
 import Main from "./pages/mainPage";
+import React from "react";
 
 /**
  * This component render the home on the div container

@@ -118,7 +118,7 @@ export default function Card() {
                             className="see__more"
                             href={item.recipe.url}
                             target="_blank"
-                            rel="Noreferrer"
+                            rel="noopener noreferrer"
                           >
                             More
                           </a>
