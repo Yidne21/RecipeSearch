@@ -8,6 +8,7 @@
 <img src="https://github.com/Yidne21/RecipeSearch/blob/master/screenShot/RecipeSearch.png" width="100%" height="400px"/>
 
 - **Access The project using this link and get recipe info Start cooking At Home** [Recipe Search App](https://master--sunny-biscochitos-797179.netlify.app/)
+- [Blogs post about This project](https://medium.com/@mekuyidnedawit/how-i-build-a-recipe-search-app-using-react-redux-and-edamam-api-81d874cde79c)
 
 
 
